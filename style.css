@@ -5,6 +5,21 @@ body {
     padding: 20px;
 }
 
+.credit-card-header {
+  background-color: #FFA500; /* оранжевый цвет фона */
+  color:#020311 ; /* цвет текста */
+  padding: 10px 20px; /* отступы внутри блока */
+  text-align: center; /* выравнивание текста по центру */
+  font-weight:bold; /* жирный шрифт */
+  margin-bottom: 20px; /* отступ снизу */
+  border-radius: 50px; /* скругление углов */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* тень для объёма */
+  position: relative;
+  top: 70px;
+  margin-left: -32px;
+}
+
+
 form {
     background-color: #ffffff;
     padding: 50px;
@@ -13,9 +28,10 @@ form {
   background-size: cover; /* Масштабирует изображение под размер блока */
   background-repeat: no-repeat;
   background-position: center; /* Центрирует изображение */
-  padding: 24px; /* Отступы внутри блока */
+  padding: 32px; /* Отступы внутри блока */
   width: 500px;
   height: 350px;
+  padding-top: 60px;
 }
 
 label {
@@ -23,6 +39,7 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
     color: rgb(230, 161, 71);
+    margin: 1px;
 }
 
 input[type="text"] {
