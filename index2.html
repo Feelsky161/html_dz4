@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-библиотека стилей</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Inputs</h2>
+  <input type="text" class="input-default" placeholder="Нетронутый input">
+  <input type="text" class="input-valid" value="Корректные данные" placeholder="Корректные данные">
+  <input type="text" class="input-invalid" value="Некорректные данные" placeholder="Некорректные данные">
+
+  <h2>Check boxes</h2>
+<label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider"></span>
+    <span class="status-text">ВКЛ</span>
+  </label>
+  
+  <label class="switch">
+    <input type="checkbox">
+    <span class="slider"></span>
+    <span class="status-text">ВЫКЛ</span>
+  </label>
+
+
+  <h2>Radio buttons</h2>
+  <label>
+    <input type="radio" name="gender" class="radio-checked"> Мужской
+  </label>
+  <label>
+    <input type="radio" name="gender" class="radio-unchecked"> Женский
+  </label>
+
+  <h2>Buttons</h2>
+  <button class="btn-green">Зелёная кнопка</button>
+  <button class="btn-red">Красная кнопка</button>
+  <button class="btn-disabled">Неактивная кнопка</button>
+  <button class="btn-round-green"><i class="icon-check"></i></button>
+  <button class="btn-round-red"><i class="icon-cross"></i></button>
+
+  <h2>Text area</h2>
+  <textarea class="textarea" placeholder="Многострочный ввод"></textarea>
+    </div>
+</body>
+</html>
